@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEF676C3-F535-4290-B144-EA508D11768B}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.vscode\launch.json = .vscode\launch.json
 	EndProjectSection
 EndProject
 Global
