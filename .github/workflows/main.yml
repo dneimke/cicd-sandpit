@@ -48,4 +48,4 @@ jobs:
 
          # run tests with built project
       - name: Test PR      
-        run: dotnet test --no-restore --no-build -l "liquid.md;LogFileName=${{github.workspace}}/${{env.file_name}};Title=${{env.title}};"
+        run: dotnet test --no-restore --no-build -l:"liquid.md;LogFileName=${{github.workspace}}/${{env.file_name}};Title=${{env.title}};"
