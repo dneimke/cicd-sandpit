@@ -7,7 +7,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/cicd-sandpit.tests/bin/Debug/net7.0/cicd-sandpit.tests.dll",
+            "program": "${workspaceFolder}/cicd-sandpit.tests/bin/Debug/net6.0/cicd-sandpit.tests.dll",
             "args": [],
             "cwd": "${workspaceFolder}/cicd-sandpit.tests",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
