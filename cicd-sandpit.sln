@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32916.344
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cicd-sandpit", "cicd-sandpit\cicd-sandpit.csproj", "{D81C0585-9D0F-479E-8475-D401E183294D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cicd-sandpit.tests", "cicd-sandpit.tests\cicd-sandpit.tests.csproj", "{06F44387-3FF4-457E-A434-0A0E9AD05D10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEF676C3-F535-4290-B144-EA508D11768B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D81C0585-9D0F-479E-8475-D401E183294D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81C0585-9D0F-479E-8475-D401E183294D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81C0585-9D0F-479E-8475-D401E183294D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81C0585-9D0F-479E-8475-D401E183294D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F44387-3FF4-457E-A434-0A0E9AD05D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F44387-3FF4-457E-A434-0A0E9AD05D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F44387-3FF4-457E-A434-0A0E9AD05D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F44387-3FF4-457E-A434-0A0E9AD05D10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B09F70A-F79E-49EA-8490-B401047F6436}
+	EndGlobalSection
+EndGlobal
